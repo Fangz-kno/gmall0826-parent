@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gmall0826-common" />
+        <module name="gmall0826-logger" />
+        <module name="gmall0826-mock" />
+        <module name="gmall0826-realtime" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
