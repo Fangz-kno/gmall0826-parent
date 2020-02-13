@@ -24,6 +24,8 @@ public  String doLog(@RequestParam("logString") String logString){
 //        TODO
         String logJsonString = jsonObject.toJSONString();
         System.out.println(logJsonString);
+//        TODO 用lombok 落盘成本地文件
+
         log.info(logJsonString);
             //  发送kafka
             if("startup".equals( jsonObject.getString("type"))){
